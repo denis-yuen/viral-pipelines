@@ -1,0 +1,6 @@
+version: 1.2
+workflows:
+   - subclass: WDL
+     primaryDescriptorPath: /pipes/WDL/workflows/multi_sample_assemble_kraken.wdl 
+     testParameterFiles:
+     - /test/dockstore.wdl.json
